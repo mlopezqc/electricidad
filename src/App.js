@@ -66,7 +66,7 @@ const Calculator = () => {
           className="text-center"
           onChange={(e) => setKwh(e.target.value)}
           autofocus="true"
-          type="number"
+          inputMode="numeric"
         />
         <InputGroup.Append>
           <InputGroup.Text id="basic-addon3">kWh</InputGroup.Text>

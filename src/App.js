@@ -8,7 +8,7 @@ import FormControl from "react-bootstrap/FormControl";
 import Table from "react-bootstrap/Table";
 
 const Calculator = () => {
-  const [kwh, setKwh] = useState(0);
+  const [kwh, setKwh] = useState('');
   const [cup, setCup] = useState(0);
   const [cupOld, setCupOld] = useState(0);
   const [usd, setUsd] = useState(0);
@@ -65,6 +65,8 @@ const Calculator = () => {
           value={kwh}
           className="text-center"
           onChange={(e) => setKwh(e.target.value)}
+          autofocus="true"
+          type="number"
         />
         <InputGroup.Append>
           <InputGroup.Text id="basic-addon3">kWh</InputGroup.Text>

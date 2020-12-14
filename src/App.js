@@ -71,7 +71,7 @@ const Calculator = () => {
         </InputGroup.Append>
       </InputGroup>
       <Container className="p-3 my-3 oldPrice rounded">
-      <h3 >Antes de 01/01/2020</h3>
+      <h3 >Antes de 01/01/2021</h3>
       <Table striped borderless hover className="text-center">
         <thead>
           <tr>
@@ -86,7 +86,7 @@ const Calculator = () => {
       </Table>
       </Container>
       <Container className="p-3 my-3 newPrice rounded">
-      <h3 className="m-2">Después de 01/01/2020</h3>
+      <h3 className="m-2">Después de 01/01/2021</h3>
       <Table striped borderless hover className="text-center">
         <thead>
           <tr>
